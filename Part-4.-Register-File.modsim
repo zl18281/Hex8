@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ModuleSim>
+  <view camX="159.25850448128915" camY="-187.389984276856" zoom="3"/>
+  <ModuleSim>
+    <module ID="0" type="ADDSUB">
+      <dim orient="0" x="-700.0" y="-50.0"/>
+      <inputs>
+        <input ID="4"/>
+        <input ID="5"/>
+        <input ID="6"/>
+      </inputs>
+      <outputs>
+        <output ID="1"/>
+        <output ID="2"/>
+        <output ID="3"/>
+      </outputs>
+    </module>
+    <module ID="7" type="ADDSUB">
+      <dim orient="0" x="-450.0" y="-50.0"/>
+      <inputs>
+        <input ID="11"/>
+        <input ID="12"/>
+        <input ID="13"/>
+      </inputs>
+      <outputs>
+        <output ID="8"/>
+        <output ID="9"/>
+        <output ID="10"/>
+      </outputs>
+    </module>
+    <module ID="14" type="REGISTER">
+      <dim orient="0" x="-700.0" y="-225.0"/>
+      <label size="0">H</label>
+      <inputs>
+        <input ID="15"/>
+        <input ID="16"/>
+      </inputs>
+      <outputs>
+        <output ID="17"/>
+        <output ID="18"/>
+      </outputs>
+      <data latched_value="0000"/>
+    </module>
+    <module ID="19" type="REGISTER">
+      <dim orient="0" x="-450.0" y="-225.0"/>
+      <label size="0">H</label>
+      <inputs>
+        <input ID="20"/>
+        <input ID="21"/>
+      </inputs>
+      <outputs>
+        <output ID="22"/>
+        <output ID="23"/>
+      </outputs>
+      <data latched_value="0000"/>
+    </module>
+    <module ID="24" type="MUX">
+      <dim orient="0" x="-1325.0" y="200.0"/>
+      <inputs>
+        <input ID="27"/>
+        <input ID="28"/>
+        <input ID="29"/>
+        <input ID="30"/>
+        <input ID="31"/>
+      </inputs>
+      <outputs>
+        <output ID="25"/>
+        <output ID="26"/>
+      </outputs>
+    </module>
+    <module ID="32" type="MUX">
+      <dim orient="0" x="-1100.0" y="200.0"/>
+      <inputs>
+        <input ID="35"/>
+        <input ID="36"/>
+        <input ID="37"/>
+        <input ID="38"/>
+        <input ID="39"/>
+      </inputs>
+      <outputs>
+        <output ID="33"/>
+        <output ID="34"/>
+      </outputs>
+    </module>
+    <module ID="40" type="MUX">
+      <dim orient="0" x="-550.0" y="275.0"/>
+      <inputs>
+        <input ID="43"/>
+        <input ID="44"/>
+        <input ID="45"/>
+        <input ID="46"/>
+        <input ID="47"/>
+      </inputs>
+      <outputs>
+        <output ID="41"/>
+        <output ID="42"/>
+      </outputs>
+    </module>
+    <module ID="48" type="MUX">
+      <dim orient="0" x="-300.0" y="275.0"/>
+      <inputs>
+        <input ID="51"/>
+        <input ID="52"/>
+        <input ID="53"/>
+        <input ID="54"/>
+        <input ID="55"/>
+      </inputs>
+      <outputs>
+        <output ID="49"/>
+        <output ID="50"/>
+      </outputs>
+    </module>
+    <module ID="56" type="ADDSUB">
+      <dim orient="0" x="475.0" y="50.0"/>
+      <inputs>
+        <input ID="60"/>
+        <input ID="61"/>
+        <input ID="62"/>
+      </inputs>
+      <outputs>
+        <output ID="57"/>
+        <output ID="58"/>
+        <output ID="59"/>
+      </outputs>
+    </module>
+    <module ID="63" type="CLOCK">
+      <dim orient="0" x="875.0" y="50.0"/>
+      <inputs/>
+      <outputs>
+        <output ID="64"/>
+        <output ID="65"/>
+      </outputs>
+      <data clock_phase="0"/>
+    </module>
+    <module ID="66" type="REGISTER">
+      <dim orient="0" x="475.0" y="-150.0"/>
+      <label size="0">b</label>
+      <inputs>
+        <input ID="67"/>
+        <input ID="68"/>
+      </inputs>
+      <outputs>
+        <output ID="69"/>
+        <output ID="70"/>
+      </outputs>
+      <data latched_value="0000"/>
+    </module>
+    <module ID="71" type="REGISTER">
+      <dim orient="0" x="450.0" y="475.0"/>
+      <label size="0">a</label>
+      <inputs>
+        <input ID="72"/>
+        <input ID="73"/>
+      </inputs>
+      <outputs>
+        <output ID="74"/>
+        <output ID="75"/>
+      </outputs>
+      <data latched_value="0000"/>
+    </module>
+    <module ID="76" type="SWITCH">
+      <dim orient="0" x="575.0" y="200.0"/>
+      <inputs/>
+      <outputs>
+        <output ID="77"/>
+      </outputs>
+      <data switch_set="0001"/>
+    </module>
+    <module ID="78" type="SWITCH">
+      <dim orient="0" x="625.0" y="100.0"/>
+      <inputs/>
+      <outputs>
+        <output ID="79"/>
+      </outputs>
+      <data switch_set="0000"/>
+    </module>
+    <module ID="80" type="REGISTER">
+      <dim orient="0" x="-1600.0" y="800.0"/>
+      <label size="0">A</label>
+      <inputs>
+        <input ID="81"/>
+        <input ID="82"/>
+      </inputs>
+      <outputs>
+        <output ID="83"/>
+        <output ID="84"/>
+      </outputs>
+      <data latched_value="0000"/>
+    </module>
+    <module ID="85" type="REGISTER">
+      <dim orient="0" x="-1475.0" y="800.0"/>
+      <label size="0">A</label>
+      <inputs>
+        <input ID="86"/>
+        <input ID="87"/>
+      </inputs>
+      <outputs>
+        <output ID="88"/>
+        <output ID="89"/>
+      </outputs>
+      <data latched_value="0000"/>
+    </module>
+    <module ID="90" type="REGISTER">
+      <dim orient="0" x="-1225.0" y="800.0"/>
+      <label size="0">PC</label>
+      <inputs>
+        <input ID="91"/>
+        <input ID="92"/>
+      </inputs>
+      <outputs>
+        <output ID="93"/>
+        <output ID="94"/>
+      </outputs>
+      <data latched_value="0000"/>
+    </module>
+    <module ID="95" type="REGISTER">
+      <dim orient="0" x="-1100.0" y="800.0"/>
+      <label size="0">PC</label>
+      <inputs>
+        <input ID="96"/>
+        <input ID="97"/>
+      </inputs>
+      <outputs>
+        <output ID="98"/>
+        <output ID="99"/>
+      </outputs>
+      <data latched_value="0000"/>
+    </module>
+    <module ID="100" type="REGISTER">
+      <dim orient="0" x="-875.0" y="800.0"/>
+      <label size="0">B</label>
+      <inputs>
+        <input ID="101"/>
+        <input ID="102"/>
+      </inputs>
+      <outputs>
+        <output ID="103"/>
+        <output ID="104"/>
+      </outputs>
+      <data latched_value="0000"/>
+    </module>
+    <module ID="105" type="REGISTER">
+      <dim orient="0" x="-750.0" y="800.0"/>
+      <label size="0">B</label>
+      <inputs>
+        <input ID="106"/>
+        <input ID="107"/>
+      </inputs>
+      <outputs>
+        <output ID="108"/>
+        <output ID="109"/>
+      </outputs>
+      <data latched_value="0000"/>
+    </module>
+    <module ID="110" type="REGISTER">
+      <dim orient="0" x="-450.0" y="800.0"/>
+      <label size="0">O</label>
+      <inputs>
+        <input ID="111"/>
+        <input ID="112"/>
+      </inputs>
+      <outputs>
+        <output ID="113"/>
+        <output ID="114"/>
+      </outputs>
+      <data latched_value="0000"/>
+    </module>
+    <module ID="115" type="REGISTER">
+      <dim orient="0" x="-300.0" y="800.0"/>
+      <label size="0">O</label>
+      <inputs>
+        <input ID="116"/>
+        <input ID="117"/>
+      </inputs>
+      <outputs>
+        <output ID="118"/>
+        <output ID="119"/>
+      </outputs>
+      <data latched_value="0000"/>
+    </module>
+    <module ID="120" type="FANOUT">
+      <dim orient="0" x="-450.0" y="700.0"/>
+      <inputs>
+        <input ID="125"/>
+      </inputs>
+      <outputs>
+        <output ID="121"/>
+        <output ID="122"/>
+        <output ID="123"/>
+        <output ID="124"/>
+      </outputs>
+    </module>
+    <module ID="126" type="FANOUT">
+      <dim orient="0" x="-300.0" y="700.0"/>
+      <inputs>
+        <input ID="131"/>
+      </inputs>
+      <outputs>
+        <output ID="127"/>
+        <output ID="128"/>
+        <output ID="129"/>
+        <output ID="130"/>
+      </outputs>
+    </module>
+    <module ID="132" type="FANOUT">
+      <dim orient="0" x="-700.0" y="-300.0"/>
+      <inputs>
+        <input ID="137"/>
+      </inputs>
+      <outputs>
+        <output ID="133"/>
+        <output ID="134"/>
+        <output ID="135"/>
+        <output ID="136"/>
+      </outputs>
+    </module>
+    <module ID="138" type="FANOUT">
+      <dim orient="0" x="-450.0" y="-300.0"/>
+      <inputs>
+        <input ID="143"/>
+      </inputs>
+      <outputs>
+        <output ID="139"/>
+        <output ID="140"/>
+        <output ID="141"/>
+        <output ID="142"/>
+      </outputs>
+    </module>
+    <module ID="144" type="SWITCH">
+      <dim orient="0" x="-975.0" y="375.0"/>
+      <inputs/>
+      <outputs>
+        <output ID="145"/>
+      </outputs>
+      <data switch_set="0000"/>
+    </module>
+    <module ID="146" type="SWITCH">
+      <dim orient="0" x="-875.0" y="375.0"/>
+      <inputs/>
+      <outputs>
+        <output ID="147"/>
+      </outputs>
+      <data switch_set="0000"/>
+    </module>
+    <module ID="148" type="SWITCH">
+      <dim orient="0" x="-250.0" y="475.0"/>
+      <inputs/>
+      <outputs>
+        <output ID="149"/>
+      </outputs>
+      <data switch_set="0000"/>
+    </module>
+    <module ID="150" type="SWITCH">
+      <dim orient="0" x="-150.0" y="475.0"/>
+      <inputs/>
+      <outputs>
+        <output ID="151"/>
+      </outputs>
+      <data switch_set="0000"/>
+    </module>
+    <module ID="152" type="SWITCH">
+      <dim orient="0" x="-225.0" y="25.0"/>
+      <inputs/>
+      <outputs>
+        <output ID="153"/>
+      </outputs>
+      <data switch_set="0000"/>
+    </module>
+    <module ID="154" type="DEMUX">
+      <dim orient="0" x="500.0" y="325.0"/>
+      <inputs>
+        <input ID="155"/>
+        <input ID="156"/>
+      </inputs>
+      <outputs>
+        <output ID="157"/>
+        <output ID="158"/>
+        <output ID="159"/>
+        <output ID="160"/>
+        <output ID="161"/>
+      </outputs>
+    </module>
+  </ModuleSim>
+  <links>
+    <link src="10" targ="6" type="StraightPath"/>
+    <link src="1" targ="15" type="StraightPath"/>
+    <link src="8" targ="20" type="StraightPath"/>
+    <link src="23" targ="16" type="StraightPath">
+      <ctrlPt x="-500.0" y="-225.0"/>
+    </link>
+    <link src="34" targ="31" type="StraightPath"/>
+    <link src="25" targ="4" type="StraightPath">
+      <ctrlPt x="-1325.0" y="75.0"/>
+      <ctrlPt x="-725.0" y="75.0"/>
+    </link>
+    <link src="33" targ="11" type="StraightPath">
+      <ctrlPt x="-1100.0" y="100.0"/>
+      <ctrlPt x="-475.0" y="100.0"/>
+    </link>
+    <link src="50" targ="47" type="StraightPath"/>
+    <link src="41" targ="5" type="StraightPath">
+      <ctrlPt x="-550.0" y="150.0"/>
+      <ctrlPt x="-675.0" y="150.0"/>
+    </link>
+    <link src="49" targ="12" type="StraightPath">
+      <ctrlPt x="-300.0" y="125.0"/>
+      <ctrlPt x="-425.0" y="125.0"/>
+    </link>
+    <link src="57" targ="67" type="StraightPath"/>
+    <link src="64" targ="73" type="StraightPath">
+      <ctrlPt x="800.0" y="25.0"/>
+      <ctrlPt x="800.0" y="-25.0"/>
+      <ctrlPt x="950.0" y="-25.0"/>
+      <ctrlPt x="950.0" y="475.0"/>
+    </link>
+    <link src="65" targ="68" type="StraightPath">
+      <ctrlPt x="725.0" y="75.0"/>
+      <ctrlPt x="725.0" y="-150.0"/>
+    </link>
+    <link src="69" targ="72" type="StraightPath">
+      <ctrlPt x="475.0" y="-200.0"/>
+      <ctrlPt x="375.0" y="-200.0"/>
+      <ctrlPt x="375.0" y="525.0"/>
+      <ctrlPt x="450.0" y="525.0"/>
+    </link>
+    <link src="77" targ="61" type="StraightPath">
+      <ctrlPt x="575.0" y="150.0"/>
+      <ctrlPt x="500.0" y="150.0"/>
+    </link>
+    <link src="79" targ="62" type="StraightPath">
+      <ctrlPt x="625.0" y="50.0"/>
+    </link>
+    <link src="89" targ="82" type="StraightPath"/>
+    <link src="99" targ="92" type="StraightPath"/>
+    <link src="109" targ="102" type="StraightPath"/>
+    <link src="119" targ="112" type="StraightPath"/>
+    <link src="114" targ="107" type="StraightPath"/>
+    <link src="104" targ="97" type="StraightPath"/>
+    <link src="94" targ="87" type="StraightPath"/>
+    <link src="93" targ="28" type="StraightPath">
+      <ctrlPt x="-1225.0" y="300.0"/>
+      <ctrlPt x="-1350.0" y="300.0"/>
+    </link>
+    <link src="98" targ="36" type="StraightPath">
+      <ctrlPt x="-1100.0" y="300.0"/>
+      <ctrlPt x="-1125.0" y="300.0"/>
+    </link>
+    <link src="103" targ="43" type="StraightPath">
+      <ctrlPt x="-875.0" y="425.0"/>
+      <ctrlPt x="-600.0" y="425.0"/>
+    </link>
+    <link src="108" targ="51" type="StraightPath">
+      <ctrlPt x="-750.0" y="450.0"/>
+      <ctrlPt x="-350.0" y="450.0"/>
+    </link>
+    <link src="113" targ="125" type="StraightPath"/>
+    <link src="122" targ="44" type="StraightPath">
+      <ctrlPt x="-475.0" y="500.0"/>
+      <ctrlPt x="-575.0" y="500.0"/>
+    </link>
+    <link src="121" targ="29" type="StraightPath">
+      <ctrlPt x="-500.0" y="550.0"/>
+      <ctrlPt x="-1300.0" y="550.0"/>
+    </link>
+    <link src="118" targ="131" type="StraightPath"/>
+    <link src="128" targ="52" type="StraightPath"/>
+    <link src="127" targ="37" type="StraightPath">
+      <ctrlPt x="-350.0" y="525.0"/>
+      <ctrlPt x="-1075.0" y="525.0"/>
+    </link>
+    <link src="88" targ="35" type="StraightPath">
+      <ctrlPt x="-1475.0" y="350.0"/>
+      <ctrlPt x="-1150.0" y="350.0"/>
+    </link>
+    <link src="83" targ="27" type="StraightPath">
+      <ctrlPt x="-1600.0" y="300.0"/>
+      <ctrlPt x="-1375.0" y="300.0"/>
+    </link>
+    <link src="17" targ="137" type="StraightPath"/>
+    <link src="22" targ="143" type="StraightPath"/>
+    <link src="133" targ="81" type="StraightPath">
+      <ctrlPt x="-750.0" y="-350.0"/>
+      <ctrlPt x="-1675.0" y="-350.0"/>
+      <ctrlPt x="-1675.0" y="875.0"/>
+      <ctrlPt x="-1600.0" y="875.0"/>
+    </link>
+    <link src="139" targ="86" type="StraightPath">
+      <ctrlPt x="-500.0" y="-400.0"/>
+      <ctrlPt x="-1725.0" y="-400.0"/>
+      <ctrlPt x="-1725.0" y="925.0"/>
+      <ctrlPt x="-1475.0" y="925.0"/>
+    </link>
+    <link src="134" targ="91" type="StraightPath">
+      <ctrlPt x="-725.0" y="-375.0"/>
+      <ctrlPt x="-1700.0" y="-375.0"/>
+      <ctrlPt x="-1700.0" y="900.0"/>
+      <ctrlPt x="-1225.0" y="900.0"/>
+    </link>
+    <link src="140" targ="96" type="StraightPath">
+      <ctrlPt x="-475.0" y="-425.0"/>
+      <ctrlPt x="-1750.0" y="-425.0"/>
+      <ctrlPt x="-1750.0" y="950.0"/>
+      <ctrlPt x="-1100.0" y="950.0"/>
+    </link>
+    <link src="145" targ="30" type="StraightPath">
+      <ctrlPt x="-975.0" y="350.0"/>
+      <ctrlPt x="-975.0" y="325.0"/>
+      <ctrlPt x="-1275.0" y="325.0"/>
+    </link>
+    <link src="147" targ="38" type="StraightPath">
+      <ctrlPt x="-875.0" y="300.0"/>
+      <ctrlPt x="-1050.0" y="300.0"/>
+    </link>
+    <link src="149" targ="45" type="StraightPath">
+      <ctrlPt x="-250.0" y="425.0"/>
+      <ctrlPt x="-525.0" y="425.0"/>
+    </link>
+    <link src="151" targ="53" type="StraightPath">
+      <ctrlPt x="-150.0" y="450.0"/>
+      <ctrlPt x="-150.0" y="400.0"/>
+      <ctrlPt x="-275.0" y="400.0"/>
+    </link>
+    <link src="136" targ="101" type="StraightPath">
+      <ctrlPt x="-650.0" y="-375.0"/>
+      <ctrlPt x="-50.0" y="-375.0"/>
+      <ctrlPt x="-50.0" y="900.0"/>
+      <ctrlPt x="-875.0" y="900.0"/>
+      <ctrlPt x="-875.0" y="825.0"/>
+    </link>
+    <link src="142" targ="106" type="StraightPath">
+      <ctrlPt x="-400.0" y="-350.0"/>
+      <ctrlPt x="-75.0" y="-350.0"/>
+      <ctrlPt x="-75.0" y="875.0"/>
+      <ctrlPt x="-750.0" y="875.0"/>
+    </link>
+    <link src="153" targ="13" type="StraightPath">
+      <ctrlPt x="-225.0" y="0.0"/>
+      <ctrlPt x="-225.0" y="-50.0"/>
+    </link>
+    <link src="74" targ="156" type="StraightPath">
+      <ctrlPt x="450.0" y="425.0"/>
+      <ctrlPt x="600.0" y="425.0"/>
+      <ctrlPt x="600.0" y="325.0"/>
+    </link>
+    <link src="161" targ="60" type="StraightPath">
+      <ctrlPt x="400.0" y="325.0"/>
+      <ctrlPt x="400.0" y="150.0"/>
+      <ctrlPt x="450.0" y="150.0"/>
+    </link>
+  </links>
+</ModuleSim>
